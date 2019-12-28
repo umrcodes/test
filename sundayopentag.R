@@ -5,6 +5,9 @@ if (!require('pacman')) install.packages('pacman'); library('pacman')
 pacman::p_load('curl','tidyverse', 'lubridate', 'writexl','taskscheduleR', 'httr', 'readxl') 
 auorig <- read_csv("au.csv",
                    col_types = cols(Time = col_datetime(format = "%d/%m/%Y %H:%M")))
+ghj
+hkj
+\hkjkjjk
 
 
 au <- auorig
